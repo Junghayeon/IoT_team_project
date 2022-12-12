@@ -23,9 +23,12 @@
  - MIT를 활용한 앱 개발
  
 ### 2. 초기설정
- A. IoT_team_project/dist/LoraHSU/LoraHSU.exe 파일 다운로드
+ A. 해당 github의 IoT_team_project/dist/LoraHSU 이동 후 LoraHSU.exe 파일 다운로드
+ 
  B. LoraHSU_PCarduino.ino의 보드 설정 및 포트번호 재설정
+ 
  C. LoraHSU.py의 포트번호 재설정
- D. 작업 스케줄러에 컴퓨터 부팅 시에 바로 해당 파일이 실행될 수 있도록 가장 높은 권한을 부여
+ 
+ D. 작업 스케줄러에 컴퓨터 부팅 시에 바로 LoraHSU.ex 파일이 실행될 수 있도록 가장 높은 권한을 부여
  - 아래 링크 참고
  https://ingus26.tistory.com/81
