@@ -22,7 +22,7 @@
  #### 앱의 인터페이스 
  - MIT를 활용한 앱 개발
  
-### 2. 초기설정
+### 2. PC로 강의자료 띄우기 초기설정
  A. 해당 github의 IoT_team_project/dist/LoraHSU 이동 후 LoraHSU.exe 파일 다운로드
  
  B. LoraHSU_PCarduino.ino의 보드 설정 및 포트번호 재설정
