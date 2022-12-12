@@ -13,7 +13,7 @@ SoftwareSerial DebugSerial(RXpin,TXpin);
 SNIPE SNIPE(ATSerial);
 
 int motor = 8;
-#include <Servo.h>
+Servo servo;
 
 
 void setup() {
