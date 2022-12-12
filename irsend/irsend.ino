@@ -3,6 +3,7 @@
 #define TXpin 11
 #define RXpin 10
 #define ATSerial Serial
+#define oncodes 0x4C82
 
 #include <IRremote.h>
 
@@ -84,7 +85,7 @@ void loop() {
   if( (str1=="2")&&(str2=="3") == 1){ //건물번호가 2이고 강의실번호가 3이면 실행
     //activation codes
    
-    irsend.sendNEC(0xFAA36BCD, 32);
+    irsend.sendNEC(oncodes, 32);
 
     }
 
